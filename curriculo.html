@@ -1,0 +1,147 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cv.css">
+        <title>Curriculo vitae</title>
+    </head>
+    <body>
+        <div class="top"><!--inicio div cabecalho-->
+            <div class="itens-top">CONTATO TEC</div>
+        </div><!--fim div cabecalho-->
+
+    <h3>Preencha o seu curriculo para participar do processo seletivo</h3>
+    <br>
+
+    <!--inico formulario-->
+    <form method="post" action="#">
+    <!--inicio dados pessoais-->
+    <h4>Dados pessoais</h4>
+    <div class="controle-form"><!--inicio div controle form-->
+        <p><label>Nome compléto</label></p>
+        <p><input type="text" name="nome" class="campos-form" maxlength="40" required></p>
+    
+        <p><label>Data de nascimento</label></p>
+        <p><input type="date" name="nascimento" class="campos-form" maxlength="15" required></p>
+        
+        <p><label>Email</label></p>
+        <p><input type="email" name="email" class="campos-form" maxlength="50" required></p>
+        
+        <p><label>Telefone</label></p>
+        <p><input type="number" name="telefone" class="campos-form"  maxlength="15" required placeholder="(xx) xxxxx-xxxx"></p>
+        
+        <p><label>Celular</label></p>
+        <p><input type="number" name="celular" class="campos-form"  maxlength="15" required placeholder="(xx) xxxxx-xxxx"></p>
+        
+        <p><label>URL Linkdin ou Portifólio</label></p>
+        <p><input type="text" name="url" class="campos-form" maxlength="50" required></p>
+        
+        <p><label>Área de atuação</label></p>
+        <p><input type="text" name="sobre" class="campos-form" maxlength="35" required></p>
+        
+        <p><label>Sobre</label></p>
+        <p><input type="text" name="sobre" class="campos-form" maxlength="70" required></p>
+         <br> 
+
+    </div><!--fim div controle form-->
+    <!--fim dados pessoais-->
+
+    <h4>Experiência</h4>
+    <div class="controle-form"><!--inicio div controle form-->
+        <p><label>Nome da empresa</label></p>
+        <p><input type="text" name="nome_empresa1" class="campos-form" ></p>
+        
+        <p><label>Cargo</label></p>
+        <p><input type="text" name="cargo_empresa1" class="campos-form"    ></p>
+
+        <div class="alinha-date">
+        <p><label>Data de inicio</label></p>
+        <p><input type="date" name="inicio_empresa1" class="campos-form" maxlength="15" ></p>
+        
+        <p><label>Data de saida</label></p>
+        <p><input type="date" name="saida_empresa1" class="campos-form" maxlength="15" ></p>
+    </div>
+        <hr>
+
+        <p><label>Nome da empresa</label></p>
+        <p><input type="text" name="nome_empresa2" class="campos-form"></p>
+        
+        <p><label>Cargo</label></p>
+        <p><input type="number" name="cargo_empresa2" class="campos-form"   ></p>
+
+        <div class="alinha-date">
+        <p><label>Data de inicio</label></p>
+        <p><input type="date" name="inicio_empresa2" class="campos-form"></p>
+        
+        <p><label>Data de saida</label></p>
+        <p><input type="date" name="saida_empresa2" class="campos-form"></p>
+    </div><!--fim div para alinharos campos de data-->
+        <hr>
+         
+    </div><!--fim div controle form-->
+  
+    <h4>Formação</h4>
+    <div class="controle-form"><!--inicio div controle form-->
+        <p><label>Nome da instituição de ensino</label></p>
+        <p><input type="text" name="nome__escola1" class="campos-form" maxlength="50"></p>
+        
+        <p><label>Curso</label></p>
+        <p><input type="text" name="curso__escola1" class="campos-form"   maxlength="30" ></p>
+
+    <div class="alinha-date">
+        <p><label>Data de inicio</label></p>
+        <p><input type="date" name="inicio__escola1" class="campos-form"  ></p>
+        
+        <p><label>Data de conclusão</label></p>
+        <p><input type="date" name="conclusao_escola1" class="campos-form"  ></p>
+    </div>
+        <hr>
+        <br>
+        <p><label>Nome da instituição de ensino</label></p>
+        <p><input type="text" name="nome_escola2" class="campos-form"></p>
+        
+        <p><label>Curso</label></p>
+        <p><input type="number" name="curso__escola2" class="campos-form"   ></p>
+
+     <div class="alinha-date"><!--Inicio div para alinharos campos de data-->
+        <p><label>Data de inicio</label></p>
+        <p><input type="date" name="inicio_escola2" class="campos-form"></p>
+        
+        <p><label>Data de conclusão</label></p>
+        <p><input type="date" name="conclusao_escola2" class="campos-form"></p>
+    </div><!--fim div para alinharos campos de data-->
+        <hr>
+         <br>  
+    </div><!--fim div controles form-->
+
+    <h4>Habilidades</h4>
+    <div class="controle-form"><!--inicio div controle form-->
+        <p><label>Habilidades</label></p>
+        <p><input type="text" name="habilidade1" class="campos-form" maxlength="100" placeholder="exemplo: habilidade1,habilidade2,habilidade3"></p>
+        </div><!--fim div controle form-->
+
+    <h4>Endereço</h4>
+    <div class="controle-form"><!--inicio div controle form-->
+        <p><label>Estado</label></p>
+        <p><input type="text" name="estado" class="campos-form" maxlength="25"></p>
+        
+        <p><label>Cidade</label></p>
+        <p><input type="text" name="ciadde" class="campos-form"   maxlength="25" ></p>
+
+         <br>  
+    </div><!--fim div controle form-->
+    <div class="alinha-botao">
+      <input type="submit" class="botao_enviar" value="Enviar Curriculo">
+    </div>
+</form><!--fim formulario-->
+
+<br>
+<footer class="rodape">
+
+    © Copyright 2022 - Todos os direitos reservados contato tec
+</footer>
+
+    </body>
+    </html>
